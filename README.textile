@@ -4,7 +4,14 @@ h2. my VIM configurations on an Ubuntu system
 
 h3. What's included?
 
-* Plugin: Color Sampler Pack : version 8.0.3
+h4. Plugins
+* Color Sampler Pack
+  version 8.0.3
+  http://www.vim.org/scripts/script.php?script_id=625
+* The NERD tree
+  version 4.1.0
+  http://www.vim.org/scripts/script.php?script_id=1658
+
 
 h3. How do I use it?
 
