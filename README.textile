@@ -11,6 +11,9 @@ h4. Plugins
 * The NERD tree
   version 4.1.0
   http://www.vim.org/scripts/script.php?script_id=1658
+* Rails
+  version 4.2
+  http://www.vim.org/scripts/script.php?script_id=1567
 
 
 h3. How do I use it?
