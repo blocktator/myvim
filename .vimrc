@@ -4,7 +4,15 @@ let mapleader = ","
 " Set temporary directory (don't litter local dir with swp/tmp files)
 set directory=/tmp/
 
+set term=xterm
+
+" Explicitly set 256 color support
+set t_Co=256
+
 colorscheme ekvoli
+
+filetype plugin indent on
+
 
 " Tab navigation
 nmap <leader>tn :tabnext<CR>
@@ -17,4 +25,3 @@ runtime! configs/nerdtree_config.vim
 runtime! configs/shell.vim
 
 set nocp
-filetype plugin on

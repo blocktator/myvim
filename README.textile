@@ -32,6 +32,9 @@ h4. Plugins
 * Align
   version 7.0
   http://www.vim.org/scripts/script.php?script_id=294
+* CSApprox
+  version 3.50
+  http://www.vim.org/scripts/script.php?script_id=2390
 
 
 h3. How do I use it?
