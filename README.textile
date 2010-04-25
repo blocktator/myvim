@@ -39,16 +39,10 @@ h4. Plugins
   version 0.3.1
   http://www.vim.org/scripts/script.php?script_id=2572
 
-h3. Installation Instructions
-  
-Given this project is in some_dir
+h3. Installation Instructions (Given this project is in some_dir)
 
-  cd ~
-  ln -s some_dir/.vim
-  ln -s some_dir/.vimrc
-  ln -s some_dir/.gvimrc
+*  cd ~
+*  ln -s some_dir/.vim
+*  ln -s some_dir/.vimrc
+*  ln -s some_dir/.gvimrc
   
-
-* Clone the repo, or fork it if you want
-* Run install.sh
-  This will symlink symlink .vimrc, .gvimrc, and .vim to your $HOME directory.  
