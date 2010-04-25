@@ -24,6 +24,11 @@ h4. Plugins
   version 1.0
   http://www.vim.org/scripts/script.php?script_id=2973
   http://github.com/tpope/vim-cucumber
+* Git
+  version 5.0
+  http://www.vim.org/scripts/script.php?script_id=1654
+* Git VIM
+  http://github.com/motemen/git-vim
 
 
 h3. How do I use it?
