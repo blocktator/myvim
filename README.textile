@@ -38,6 +38,14 @@ h4. Plugins
 * Ack
   version 0.3.1
   http://www.vim.org/scripts/script.php?script_id=2572
+* Buffer Explorer / Browser
+  version 7.2.6
+  http://www.vim.org/scripts/script.php?script_id=273
+
+*Next*
+
+* Taglist
+  http://www.vim.org/scripts/script.php?script_id=273
 
 h3. Installation Instructions (Given this project is in some_dir)
 
