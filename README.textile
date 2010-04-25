@@ -29,6 +29,9 @@ h4. Plugins
   http://www.vim.org/scripts/script.php?script_id=1654
 * Git VIM
   http://github.com/motemen/git-vim
+* Align
+  version 7.0
+  http://www.vim.org/scripts/script.php?script_id=294
 
 
 h3. How do I use it?

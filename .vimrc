@@ -16,3 +16,5 @@ nmap <leader>te :tabedit
 runtime! configs/nerdtree_config.vim
 runtime! configs/shell.vim
 
+set nocp
+filetype plugin on
