@@ -47,6 +47,9 @@ h4. Plugins
 * The NERD Commenter : A plugin that allows for easy commenting of code for many filetypes. 
   version 2.2.2
   http://www.vim.org/scripts/script.php?script_id=1218
+* SuperTab continued. : Do all your insert-mode completion with Tab.
+  version 1.0
+  http://www.vim.org/scripts/script.php?script_id=1643
 
 *Next*
 

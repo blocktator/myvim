@@ -13,12 +13,15 @@ colorscheme ekvoli
 
 filetype plugin indent on
 
-
 " Tab navigation
 nmap <leader>tn :tabnext<CR>
 nmap <leader>tp :tabprevious<CR>  
 nmap <leader>te :tabedit  
 
+" External Buffers
+map Y "+y
+map C "+C
+map P "+p
 
 " Additional Configs
 runtime! configs/nerdtree_config.vim
