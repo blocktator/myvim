@@ -236,6 +236,7 @@ bufexplorer-windowlayout	bufexplorer.txt	/*bufexplorer-windowlayout*
 bufexplorer.txt	bufexplorer.txt	/*bufexplorer.txt*
 buffer-explorer	bufexplorer.txt	/*buffer-explorer*
 config/rails.vim	rails.txt	/*config\/rails.vim*
+cs	surround.txt	/*cs*
 csapprox	CSApprox.txt	/*csapprox*
 csapprox-+gui	CSApprox.txt	/*csapprox-+gui*
 csapprox-aterm	CSApprox.txt	/*csapprox-aterm*
@@ -274,6 +275,7 @@ csapprox-xfce4-terminal	CSApprox.txt	/*csapprox-xfce4-terminal*
 csapprox-xiterm	CSApprox.txt	/*csapprox-xiterm*
 csapprox-xterm	CSApprox.txt	/*csapprox-xterm*
 csapprox.vim	CSApprox.txt	/*csapprox.vim*
+ds	surround.txt	/*ds*
 ft-ruby-omni	ft-ruby-omni.txt	/*ft-ruby-omni*
 ft-ruby-syntax	ft-ruby-syntax.txt	/*ft-ruby-syntax*
 g:CSApprox_approximator_function	CSApprox.txt	/*g:CSApprox_approximator_function*
@@ -322,6 +324,8 @@ g:rails_statusline	rails.txt	/*g:rails_statusline*
 g:rails_syntax	rails.txt	/*g:rails_syntax*
 g:rails_tabstop	rails.txt	/*g:rails_tabstop*
 g:rails_url	rails.txt	/*g:rails_url*
+i_CTRL-G_S	surround.txt	/*i_CTRL-G_S*
+i_CTRL-G_s	surround.txt	/*i_CTRL-G_s*
 macros/rails.vim	rails.txt	/*macros\/rails.vim*
 rails	rails.txt	/*rails*
 rails-'cfu'	rails.txt	/*rails-'cfu'*
@@ -478,3 +482,18 @@ supertab-midword	supertab.txt	/*supertab-midword*
 supertab-options	supertab.txt	/*supertab-options*
 supertab-usage	supertab.txt	/*supertab-usage*
 supertab.txt	supertab.txt	/*supertab.txt*
+surround	surround.txt	/*surround*
+surround-author	surround.txt	/*surround-author*
+surround-customizing	surround.txt	/*surround-customizing*
+surround-issues	surround.txt	/*surround-issues*
+surround-mappings	surround.txt	/*surround-mappings*
+surround-replacements	surround.txt	/*surround-replacements*
+surround-targets	surround.txt	/*surround-targets*
+surround.txt	surround.txt	/*surround.txt*
+vS	surround.txt	/*vS*
+vgS	surround.txt	/*vgS*
+vs	surround.txt	/*vs*
+yS	surround.txt	/*yS*
+ySS	surround.txt	/*ySS*
+ys	surround.txt	/*ys*
+yss	surround.txt	/*yss*
