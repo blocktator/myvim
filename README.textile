@@ -17,6 +17,13 @@ h4. Plugins
 * VIM Ruby
   version 2007.05.07
   http://vim-ruby.rubyforge.org/
+* Ruby Test
+  version 1.0.1
+  http://www.vim.org/scripts/script.php?script_id=2612
+* Cucumber
+  version 1.0
+  http://www.vim.org/scripts/script.php?script_id=2973
+  http://github.com/tpope/vim-cucumber
 
 
 h3. How do I use it?
