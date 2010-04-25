@@ -1,6 +1,10 @@
-h1. My VIM
+h1. My VIM : This is My VIM configurations on an Ubuntu Linux system
 
-h2. This is My VIM configurations on an Ubuntu Linux system
+h2. Author
+
+* Benjamin Wagaman
+* ben@wagaman.org
+* Special thanks to Chad Humphries.  His "bringing-vim-to-the-people":http://github.com/spicycode/bringing-vim-to-the-people configuration set was the inspiration that helped me realize that how awesome VIM could be.  It was also a basis of research for this configuration set.
 
 h3. What's included?
 
@@ -53,7 +57,10 @@ h4. Plugins
 * Surround : Delete/change/add parentheses/quotes/XML-tags/much more with ease 
   version 1.9.0 
   http://www.vim.org/scripts/script.php?script_id=1697
-
+* Textile
+  version 0.3
+  http://www.vim.org/scripts/script.php?script_id=2305
+  (This plugin is modified to render preview to firefox in Ubuntu)
 
 *Next*
 

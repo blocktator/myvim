@@ -19,9 +19,8 @@ nmap <leader>tp :tabprevious<CR>
 nmap <leader>te :tabedit  
 
 " External Buffers
-map Y "+y
-map C "+C
-map P "+p
+map YY "+y
+map PP "+P
 
 " Additional Configs
 runtime! configs/nerdtree_config.vim

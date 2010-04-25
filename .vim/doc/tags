@@ -490,6 +490,11 @@ surround-mappings	surround.txt	/*surround-mappings*
 surround-replacements	surround.txt	/*surround-replacements*
 surround-targets	surround.txt	/*surround-targets*
 surround.txt	surround.txt	/*surround.txt*
+textile-changelog	textile.txt	/*textile-changelog*
+textile-commands	textile.txt	/*textile-commands*
+textile-credits	textile.txt	/*textile-credits*
+textile-requirements	textile.txt	/*textile-requirements*
+textile.txt	textile.txt	/*textile.txt*
 vS	surround.txt	/*vS*
 vgS	surround.txt	/*vgS*
 vs	surround.txt	/*vs*
