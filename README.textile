@@ -1,6 +1,6 @@
 h1. My VIM
 
-h2. my VIM configurations on an Ubuntu system
+h2. This is My VIM configurations on an Ubuntu Linux system
 
 h3. What's included?
 
@@ -14,9 +14,13 @@ h4. Plugins
 * Rails
   version 4.2
   http://www.vim.org/scripts/script.php?script_id=1567
+* VIM Ruby
+  version 2007.05.07
+  http://vim-ruby.rubyforge.org/
 
 
 h3. How do I use it?
 
-* Clone the repo, or fork it if you want, then symlink .vimrc, .gvimrc, and .vim to your $HOME directory.  
-* Copy the ~/.vim/example_user_settings.vim to ~/.vim/user_settings.vim and customize as necessary.
+* Clone the repo, or fork it if you want
+* Run install.sh
+  This will symlink symlink .vimrc, .gvimrc, and .vim to your $HOME directory.  

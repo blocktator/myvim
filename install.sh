@@ -10,12 +10,12 @@ VIM_HOME_INSTALL_DIR="~"
 
 echo "Installing $MY_VIM"
 rm -f ~/.vim
-ln -s $MY_VIM ~
+ln -s $MY_VIM $HOME
 
 echo "Installing $MY_VIMRC"
 rm -f ~/.vimrc
-ln -s $MY_VIMRC ~
+ln -s $MY_VIMRC $HOME
 
 echo "Installing $MY_GVIMRC"
 rm -f ~/.gvimrc
-ln -s $MY_GVIMRC ~
+ln -s $MY_GVIMRC $HOME
