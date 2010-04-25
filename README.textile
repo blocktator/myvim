@@ -41,11 +41,18 @@ h4. Plugins
 * Buffer Explorer / Browser
   version 7.2.6
   http://www.vim.org/scripts/script.php?script_id=273
+* Endwise
+  version 1.0
+  http://www.vim.org/scripts/script.php?script_id=2386
+* The NERD Commenter : A plugin that allows for easy commenting of code for many filetypes. 
+  version 2.2.2
+  http://www.vim.org/scripts/script.php?script_id=1218
 
 *Next*
 
 * Taglist
   http://www.vim.org/scripts/script.php?script_id=273
+* FuzzyFinder
 
 h3. Installation Instructions (Given this project is in some_dir)
 
