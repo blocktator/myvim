@@ -22,6 +22,10 @@ nmap <leader>te :tabedit
 map YY "+y
 map PP "+P
 
+" Special Mapping to Leave Insert Mode
+" See http://vim.wikia.com/wiki/Avoid_the_escape_key 
+imap ;; <Esc>
+
 " Additional Configs
 runtime! configs/nerdtree_config.vim
 runtime! configs/shell.vim
