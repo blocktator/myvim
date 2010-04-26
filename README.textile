@@ -9,58 +9,76 @@ h2. Author
 h3. What's included?
 
 h4. Plugins
+
+* Ack
+  version 0.3.1
+  http://www.vim.org/scripts/script.php?script_id=2572
+
+* Align
+  version 7.0
+  http://www.vim.org/scripts/script.php?script_id=294
+
+* Buffer Explorer / Browser
+  version 7.2.6
+  http://www.vim.org/scripts/script.php?script_id=273
+
 * Color Sampler Pack
   version 8.0.3
   http://www.vim.org/scripts/script.php?script_id=625
-* The NERD tree
-  version 4.1.0
-  http://www.vim.org/scripts/script.php?script_id=1658
-* Rails
-  version 4.2
-  http://www.vim.org/scripts/script.php?script_id=1567
-* VIM Ruby
-  version 2007.05.07
-  http://vim-ruby.rubyforge.org/
-* Ruby Test
-  version 1.0.1
-  http://www.vim.org/scripts/script.php?script_id=2612
+
+* CSApprox
+  version 3.50
+  http://www.vim.org/scripts/script.php?script_id=2390
+
 * Cucumber
   version 1.0
   http://www.vim.org/scripts/script.php?script_id=2973
   http://github.com/tpope/vim-cucumber
-* Git
-  version 5.0
-  http://www.vim.org/scripts/script.php?script_id=1654
-* Git VIM
-  http://github.com/motemen/git-vim
-* Align
-  version 7.0
-  http://www.vim.org/scripts/script.php?script_id=294
-* CSApprox
-  version 3.50
-  http://www.vim.org/scripts/script.php?script_id=2390
-* Ack
-  version 0.3.1
-  http://www.vim.org/scripts/script.php?script_id=2572
-* Buffer Explorer / Browser
-  version 7.2.6
-  http://www.vim.org/scripts/script.php?script_id=273
+
 * Endwise
   version 1.0
   http://www.vim.org/scripts/script.php?script_id=2386
+
+* Git
+  version 5.0
+  http://www.vim.org/scripts/script.php?script_id=1654
+
+* Git VIM
+  http://github.com/motemen/git-vim
+
 * The NERD Commenter : A plugin that allows for easy commenting of code for many filetypes. 
   version 2.2.2
   http://www.vim.org/scripts/script.php?script_id=1218
+
+* The NERD tree
+  version 4.1.0
+  http://www.vim.org/scripts/script.php?script_id=1658
+
+* Rails
+  version 4.2
+  http://www.vim.org/scripts/script.php?script_id=1567
+
+* Ruby Test
+  version 1.0.1
+  http://www.vim.org/scripts/script.php?script_id=2612
+
+
 * SuperTab continued. : Do all your insert-mode completion with Tab.
   version 1.0
   http://www.vim.org/scripts/script.php?script_id=1643
+
 * Surround : Delete/change/add parentheses/quotes/XML-tags/much more with ease 
   version 1.9.0 
   http://www.vim.org/scripts/script.php?script_id=1697
+
 * Textile
   version 0.3
   http://www.vim.org/scripts/script.php?script_id=2305
   (This plugin is modified to render preview to firefox in Ubuntu)
+
+* VIM Ruby
+  version 2007.05.07
+  http://vim-ruby.rubyforge.org/
 
 *Next*
 
