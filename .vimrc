@@ -27,7 +27,9 @@ map PP "+P
 imap ;; <Esc>
 
 " Additional Configs
-runtime! configs/nerdtree_config.vim
+runtime! configs/nerdtree.vim
 runtime! configs/shell.vim
+runtime! configs/statusline.vim
+runtime! configs/search.vim
 
 set nocp
