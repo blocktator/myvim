@@ -74,4 +74,12 @@ h3. Installation Instructions (Given this project is in some_dir)
 *  ln -s some_dir/.vim
 *  ln -s some_dir/.vimrc
 *  ln -s some_dir/.gvimrc
+
+h4. Further Dependencies
+
+sudo apt-get install
+
+* vim-gnome
+* git-core
+* exuberant-ctags
   
