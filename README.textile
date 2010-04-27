@@ -1,4 +1,4 @@
-h1. My VIM : This is My VIM configurations on an Ubuntu Linux system
+h1. myVIM : This is My VIM configurations on an Ubuntu Linux system
 
 h2. Author
 
