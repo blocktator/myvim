@@ -31,5 +31,6 @@ runtime! configs/nerdtree.vim
 runtime! configs/shell.vim
 runtime! configs/statusline.vim
 runtime! configs/search.vim
+runtime! configs/my_rtm.vim
 
 set nocp

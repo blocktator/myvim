@@ -46,6 +46,10 @@ h4. Plugins
 * Git VIM
   http://github.com/motemen/git-vim
 
+* MD5
+  version 1.0
+  http://www.vim.org/scripts/script.php?script_id=2806 
+
 * The NERD Commenter : A plugin that allows for easy commenting of code for many filetypes. 
   version 2.2.2
   http://www.vim.org/scripts/script.php?script_id=1218
@@ -58,10 +62,13 @@ h4. Plugins
   version 4.2
   http://www.vim.org/scripts/script.php?script_id=1567
 
+* RTM (Remember the Milk)
+  version 1.0
+  http://www.vim.org/scripts/script.php?script_id=2827
+
 * Ruby Test
   version 1.0.1
   http://www.vim.org/scripts/script.php?script_id=2612
-
 
 * SuperTab continued. : Do all your insert-mode completion with Tab.
   version 1.0
@@ -88,16 +95,21 @@ h4. Plugins
 
 h3. Installation Instructions (Given this project is in some_dir)
 
-*  cd ~
-*  ln -s some_dir/.vim
-*  ln -s some_dir/.vimrc
-*  ln -s some_dir/.gvimrc
+# cd ~
+# ln -s some_dir/.vim
+# ln -s some_dir/.vimrc
+# ln -s some_dir/.gvimrc
 
-h4. Further Dependencies
+h4. Further Instructions and Dependencies
 
 sudo apt-get install
 
-* vim-gnome
-* git-core
+* curl 
 * exuberant-ctags
-  
+* git-core
+* vim-gnome
+
+In order to use RTM (Remember the Milk):
+
+# cp ./.vim/configs/my_rtm.vim to ./.vim/configs/rtm.vim
+# View this file and follow the instructions there.
