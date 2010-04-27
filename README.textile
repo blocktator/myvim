@@ -111,5 +111,5 @@ sudo apt-get install
 
 In order to use RTM (Remember the Milk):
 
-# cp ./.vim/configs/my_rtm.vim to ./.vim/configs/rtm.vim
+# cp ./.vim/configs/my_rtm.vim ./.vim/configs/rtm.vim
 # View this file and follow the instructions there.
