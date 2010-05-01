@@ -19,8 +19,8 @@ nmap <leader>tp :tabprevious<CR>
 nmap <leader>te :tabedit  
 
 " External Buffers
-map YY "+y
-map PP "+P
+map ;y "+y
+map ;p "+P
 
 " Special Mapping to Leave Insert Mode
 " See http://vim.wikia.com/wiki/Avoid_the_escape_key 
