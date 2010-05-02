@@ -4,7 +4,9 @@ let mapleader = ","
 " Set temporary directory (don't litter local dir with swp/tmp files)
 set directory=/tmp/
 
-set term=xterm
+if !has("gui_running")
+  set term=xterm
+endif
 
 " Explicitly set 256 color support
 set t_Co=256
