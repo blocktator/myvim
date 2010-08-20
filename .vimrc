@@ -13,6 +13,8 @@ set t_Co=256
 
 colorscheme ekvoli
 
+set number
+
 filetype plugin indent on
 
 " Tab navigation
