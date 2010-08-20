@@ -26,7 +26,7 @@ nmap <leader>te :tabedit
 map ;y "+y
 map ;p "+P
 
-nmap <leader>s :Shell spec -cfn %<CR>
+"nmap <leader>s :Shell spec -cfn %<CR>
 
 " Special Mapping to Leave Insert Mode
 " See http://vim.wikia.com/wiki/Avoid_the_escape_key 
