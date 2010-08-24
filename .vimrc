@@ -26,11 +26,12 @@ nmap <leader>te :tabedit
 map ;y "+y
 map ;p "+P
 
-"nmap <leader>s :Shell spec -cfn %<CR>
-
 " Special Mapping to Leave Insert Mode
 " See http://vim.wikia.com/wiki/Avoid_the_escape_key 
 imap ;; <Esc>
+
+" Shortcuts
+nmap <leader>glp :GitLog -p<CR>
 
 " Additional Configs
 runtime! configs/nerdtree.vim
