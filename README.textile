@@ -5,7 +5,7 @@ h2. About
 * MyVIM configuration found at "http://github.com/jamin4jc/myvim":http://github.com/jamin4jc/myvim 
 * Benjamin Wagaman
 * ben@wagaman.org
-* Special thanks to Chad Humphries.  His "bringing-vim-to-the-people":http://github.com/spicycode/bringing-vim-to-the-people configuration set was the inspiration that helped me realize that how awesome VIM could be.  It was also a basis of research for this configuration set.
+* Special thanks to Chad Humphries.  His "bringing-vim-to-the-people":http://github.com/spicycode/bringing-vim-to-the-people configuration set was the inspiration that helped me realize how awesome VIM could be.  It was also a basis of research for this configuration set.
 
 h3. What's included?
 
