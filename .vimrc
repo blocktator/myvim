@@ -11,7 +11,7 @@ endif
 " Explicitly set 256 color support
 set t_Co=256
 
-colorscheme ekvoli
+colorscheme blackboard
 
 set number
 
@@ -32,6 +32,16 @@ imap ;; <Esc>
 
 " Shortcuts
 nmap <leader>glp :GitLog -p<CR>
+nmap <leader>gb :GitBlame<CR>
+
+map <leader>gsr :Shell git svn rebase<CR>
+map <leader>gsd :Shell git svn dcommit<CR>
+
+" http://vimcasts.org/episdoes/show-invisibles
+set listchars=tab:▸\ ,eol:¬
+
+nmap <leader>l :set list!<CR>
+set list
 
 " Additional Configs
 runtime! configs/nerdtree.vim

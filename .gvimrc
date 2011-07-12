@@ -1,5 +1,5 @@
 " GVIM: Color options and general settings
-colorscheme ekvoli
+colorscheme blackboard
 
 " Initial Screen Size
 set lines=120
