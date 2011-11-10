@@ -11,7 +11,7 @@ endif
 " Explicitly set 256 color support
 set t_Co=256
 
-colorscheme blackboard
+colorscheme ekvoli
 
 set number
 
