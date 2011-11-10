@@ -114,7 +114,13 @@ sudo apt-get install
 * git-core
 * vim-gnome
 
-In order to use RTM (Remember the Milk):
+h4. Command-T
 
-# cp ./.vim/configs/my_rtm.vim ./.vim/configs/rtm.vim
-# View this file and follow the instructions there.
+On Installing Command-T, I was getting an error compiling:
+error: ‘for’ loop initial declaration used outside C99 mode
+
+See http://amix.dk/blog/post/19501
+
+See Command-T documents on full notes on compiling extensions for Command-T
+
+
