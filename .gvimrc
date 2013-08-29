@@ -38,5 +38,8 @@ nmap <A-]> :tabnext<CR>
 map <A-[> :tabprevious<CR>
 map <A-]> :tabnext<CR>
 
-
-
+if has("gui_running")
+  if has("gui_gtk2")
+    set guifont=Monospace\ 9
+  endif
+endif

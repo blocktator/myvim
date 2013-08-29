@@ -38,10 +38,19 @@ map <leader>gsr :Shell git svn rebase<CR>
 map <leader>gsd :Shell git svn dcommit<CR>
 
 " http://vimcasts.org/episdoes/show-invisibles
-set listchars=tab:▸\ ,eol:¬
+"set listchars=tab:▸\ ,eol:¬
 
-nmap <leader>l :set list!<CR>
-set list
+"nmap <leader>l :set list!<CR>
+"set list
+
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
+autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+autocmd InsertLeave * match ExtraWhitespace /\s\+$/
+autocmd BufWinLeave * call clearmatches()
+
+map <leader>ts :set ts=2 sts=2 sw=2 expandtab<CR>
 
 " Additional Configs
 runtime! configs/nerdtree.vim
