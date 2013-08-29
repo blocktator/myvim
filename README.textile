@@ -100,10 +100,9 @@ h4. Plugins
 
 h3. Installation Instructions (Given this project is in some_dir)
 
-# cd ~
-# ln -s some_dir/.vim
-# ln -s some_dir/.vimrc
-# ln -s some_dir/.gvimrc
+Run the following script
+
+./setup.sh
 
 h4. Further Instructions and Dependencies
 
