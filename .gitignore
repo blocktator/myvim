@@ -2,4 +2,5 @@
 .vim/ruby/command-t/Makefile
 .vim/ruby/command-t/ext.bundle
 .vim/ruby/command-t/*.o
+.vim/ruby/command-t/*.so
 .vim/ruby/command-t/*.log
