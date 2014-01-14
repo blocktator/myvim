@@ -88,10 +88,6 @@ h4. Plugins
   http://www.vim.org/scripts/script.php?script_id=2305
   (This plugin is modified to render preview to firefox in Ubuntu)
 
-* VIM Ruby
-  version 2007.05.07
-  http://vim-ruby.rubyforge.org/
-
 *Next*
 
 * Taglist
