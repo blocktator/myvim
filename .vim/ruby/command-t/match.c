@@ -21,7 +21,7 @@
 // ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 // POSSIBILITY OF SUCH DAMAGE.
 
-#include "float.h"
+#include <float.h> /* for DBL_MAX */
 #include "match.h"
 #include "ext.h"
 #include "ruby_compat.h"
@@ -146,20 +146,12 @@ memoize:
     return score;
 }
 
-// Match.new needle, string, options = {}
-VALUE CommandTMatch_initialize(int argc, VALUE *argv, VALUE self)
+void calculate_match(VALUE str,
+                     VALUE needle,
+                     VALUE always_show_dot_files,
+                     VALUE never_show_dot_files,
+                     match_t *out)
 {
-    // process arguments: 2 mandatory, 1 optional
-    VALUE str, needle, options;
-    if (rb_scan_args(argc, argv, "21", &str, &needle, &options) == 2)
-        options = Qnil;
-    str    = StringValue(str);
-    needle = StringValue(needle); // already downcased by caller
-
-    // check optional options hash for overrides
-    VALUE always_show_dot_files = CommandT_option_from_hash("always_show_dot_files", options);
-    VALUE never_show_dot_files = CommandT_option_from_hash("never_show_dot_files", options);
-
     matchinfo_t m;
     m.haystack_p            = RSTRING_PTR(str);
     m.haystack_len          = RSTRING_LEN(str);
@@ -198,19 +190,7 @@ VALUE CommandTMatch_initialize(int argc, VALUE *argv, VALUE self)
         score = recursive_match(&m, 0, 0, 0, 0.0);
     }
 
-    // clean-up and final book-keeping
-    rb_iv_set(self, "@score", rb_float_new(score));
-    rb_iv_set(self, "@str", str);
-    return Qnil;
-}
-
-VALUE CommandTMatch_matches(VALUE self)
-{
-    double score = NUM2DBL(rb_iv_get(self, "@score"));
-    return score > 0 ? Qtrue : Qfalse;
-}
-
-VALUE CommandTMatch_to_s(VALUE self)
-{
-    return rb_iv_get(self, "@str");
+    // final book-keeping
+    out->path  = str;
+    out->score = score;
 }
