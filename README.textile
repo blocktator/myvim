@@ -20,8 +20,8 @@ h4. Plugins
   http://www.vim.org/scripts/script.php?script_id=294
 
 * Buffer Explorer / Browser
-  version 7.2.6
-  http://www.vim.org/scripts/script.php?script_id=273
+  version 7.4.2
+  http://www.vim.org/scripts/script.php?script_id=42
 
 * Color Sampler Pack
   version 8.0.3
