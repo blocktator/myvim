@@ -41,7 +41,7 @@ h4. Plugins
   http://github.com/tpope/vim-cucumber
 
 * Endwise
-  version 1.0
+  version 1.1
   http://www.vim.org/scripts/script.php?script_id=2386
 
 * Fugitive
